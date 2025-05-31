@@ -1,1 +1,1 @@
-![https://github.com/pleasantddev/ant-sim/blob/main/screenshot.png]
+![Ant Simulator Screenshot](https://github.com/pleasantddev/ant-sim/raw/main/screenshot.png)
