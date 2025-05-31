@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Ant Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <h1>🐜 Ant Simulator - RTS Mode</h1>
+    <div id="controls">
+      <button onclick="toggleMode()">Mode: Human</button>
+      <button onclick="spawnAnt('worker')">+ Worker</button>
+      <button onclick="spawnAnt('soldier')">+ Soldier</button>
+      <button onclick="resetGame()">Restart</button>
+    </div>
+    <div id="stats">Loading stats...</div>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
